@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.2.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "react-transition-group": "^2.5.2",
+    "reactstrap": "^7.0.0",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,12 +21,14 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy":"http://locahost:5000"
+  "proxy": "http://locahost:5000",
+  "devDependencies": {
+    "style-loader": "^0.23.1"
+  }
 }
