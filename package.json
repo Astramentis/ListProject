@@ -19,8 +19,8 @@
     "mongoose": "^5.7.5"
   },
   "devDependencies": {
-    "css-loader": "^3.0.0",
+    "css-loader": "^6.7.3",
     "nodemon": "^1.19.1",
-    "style-loader": "^0.23.1"
+    "style-loader": "^3.3.1"
   }
 }
